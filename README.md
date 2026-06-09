@@ -207,7 +207,7 @@ Tesla_Stock_Prediction/
 │   └── Project_Conclusion.png
 │
 ├── report/
-│   └── Tesla_Stock_Price_Forecasting_Using_SimpleRNN_and_LSTM.pdf
+│   └── Tesla Stock Price Prediction Project Report.pdf
 │
 ├── README.md
 └── requirements.txt
