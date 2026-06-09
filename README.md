@@ -166,7 +166,7 @@ python -m streamlit run app.py
 
 ## 1-Day and 5-Day Forecast
 
-![Forecasting 1 Day and 5 Day](./Screenshots/Forecasting_1%20%26%205Day.png)
+![Forecasting 1 Day and 5 Day](./Screenshots/Forecasting_1_5Day.png)
 
 ## 10-Day Forecast
 
