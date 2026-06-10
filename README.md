@@ -68,10 +68,10 @@ The following features were created during analysis:
 
 Performance Metrics:
 
-* MSE: 310.29
-* RMSE: 17.62
-* MAE: 11.34
-* R² Score: 0.9458
+* MSE = 273.76
+* RMSE = 16.55
+* MAE = 10.32
+* R² = 0.9522
 
 ### LSTM
 
@@ -92,12 +92,12 @@ Based on evaluation metrics, the SimpleRNN model achieved the best overall perfo
 
 ## Hyperparameter Tuning
 
-GridSearchCV was used to identify the best model configuration.
-
 ### Best Parameters
 
 * Units: 25
 * Dropout Rate: 0.1
+
+The GridSearchCV results indicated that an LSTM configuration with 25 units and a dropout rate of 0.1 achieved the best validation performance.
 
 ---
 
@@ -137,9 +137,9 @@ The Streamlit dashboard provides:
 Run the application:
 
 ```bash
+cd streamlit
 python -m streamlit run app.py
 ```
-
 ---
 
 # Application Screenshots

@@ -151,7 +151,7 @@ elif page == "Model Performance":
     performance_df = pd.DataFrame(
         {
             "Metric": ["MSE", "RMSE", "MAE", "R² Score"],
-            "SimpleRNN": [310.29, 17.62, 11.34, 0.9458],
+            "SimpleRNN": [273.76, 16.55, 10.32, 0.9522],
             "LSTM": [554.95, 23.56, 16.03, 0.9032],
         }
     )
